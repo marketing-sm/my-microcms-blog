@@ -28,6 +28,7 @@ export default async function Home() {
           </h1>
           <nav className="flex gap-4 text-sm font-medium text-slate-600">
             <Link href="/" className="hover:text-slate-900">ホーム</Link>
+            <Link href="/diagnostic" className="hover:text-blue-600 text-blue-600 font-bold">適職診断</Link>
             <a href="https://microcms.io" target="_blank" rel="noreferrer" className="hover:text-slate-900">microCMS</a>
           </nav>
         </div>
