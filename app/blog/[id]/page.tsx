@@ -26,19 +26,7 @@ export default async function BlogDetail({ params }: { params: Promise<{ id: str
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-800 antialiased">
-      {/* ヘッダー */}
-      <header className="bg-white border-b border-slate-200 sticky top-0 z-50">
-        <div className="max-w-3xl mx-auto px-4 h-16 flex items-center justify-between">
-          <h1 className="text-xl font-bold tracking-tight text-slate-900">
-            <Link href="/" className="hover:text-blue-600 transition-colors">
-              Tech & Life Blog
-            </Link>
-          </h1>
-          <nav className="text-sm font-medium text-slate-600">
-            <Link href="/" className="hover:text-slate-900">← 一覧に戻る</Link>
-          </nav>
-        </div>
-      </header>
+      
 
       {/* 記事本文 */}
       <main className="max-w-3xl mx-auto px-4 py-12">
