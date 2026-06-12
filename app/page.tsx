@@ -65,9 +65,9 @@ export default async function Home() {
               </div>
               
               <div className="mt-6 pt-4 border-t border-slate-100 flex justify-end">
-                <span className="text-sm font-medium text-blue-600 flex items-center gap-1 hover:underline cursor-pointer">
+                <Link href={`/blog/${blog.id}`} className="text-sm font-medium text-blue-600 flex items-center gap-1 hover:underline">
                   記事を読む →
-                </span>
+                </Link>
               </div>
             </article>
           ))}
